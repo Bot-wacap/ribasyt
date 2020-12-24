@@ -1,10 +1,10 @@
 
-const RBSBOT = '👾RIBASBOT👾'; // Nama Bot Whatsapp
-const instagram = 'https://instagram.com/rbs.420'; // Nama Instagramlu cok
-const nomer = 'https://Wa.me/+6289655478810'; // Nomor whatsapplu cok
+const RBSBOT = '🤖UwBc-404🤖'; // Nama Bot Whatsapp
+const instagram = 'https://instagram.com/Uwiw_Bocah'; // Nama Instagramlu cok
+const nomer = 'https://Wa.me/+6281381630954'; // Nomor whatsapplu cok
 const aktif = 'Tergantung jaringan'; // Kapan bot lu aktif
-const groupwa = 'https://chat.whatsapp.com/KWl3xonotUqHkEZwYQrdc1'; // OFFICIAL GRUP LU 1
-const youtube = 'https://youtube.com/channel/UCVoeo63MfuTBPXlbj-ldX3Q'; // OFFICIAL GRUP LU 2
+const groupwa = 'https://chat.whatsapp.com/D5U6a2bvurWCrVk6R925a6'; // OFFICIAL GRUP LU 1
+const youtube = 'BELUM ADA'; // OFFICIAL GRUP LU 2
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -29,9 +29,9 @@ const speed = require('performance-now');
 const readTextInImage = require('./lib/ocr')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:RIBAS Ganss\n' // full name
-            + 'ORG:Owner RIBASBot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6282193030283:+62 821-9303-0283\n' // WhatsApp ID + phone number
+            + 'FN:UWIW Ganss\n' // full name
+            + 'ORG:Owner UWIWot;\n' // the organization of the contact
+            + 'TEL;type=CELL;type=VOICE;waid=6281381630954:+62 813-8163-0954\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 //
 const
@@ -85,7 +85,7 @@ conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by rbs.420`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by uwbc.404`)
 })
 
 conn.on('message-new', async(m) =>
@@ -180,7 +180,7 @@ else if (text == 'Hai'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
 }
 else if (text == '.ttp'){
-conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/6289655478810* ' ,MessageType.text);
+conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/6281381630954* ' ,MessageType.text);
 }
 else if (text == 'Woi'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
@@ -225,27 +225,27 @@ else if (text == '.frendsowner'){
 conn.sendMessage(id, 'kawan1 iskandar wa.me/+60136670107' ,MessageType.text);
 }
 else if (text == '.coowner'){
-conn.sendMessage(id, 'kawan2 testing script wa.me/+6282232931618' ,MessageType.text);
+conn.sendMessage(id, 'kawan2 testing script wa.me/+6281381630954' ,MessageType.text);
 }
 else if (text == '.groupbot'){
-conn.sendMessage(id, 'group bot whatsapp https://chat.whatsapp.com/GDdd0I3WlF5LnMVifmS7rN' ,MessageType.text);
+conn.sendMessage(id, 'https://chat.whatsapp.com/D5U6a2bvurWCrVk6R925a6' ,MessageType.text);
 }
-else if (text == '.tools1'){
+else if (text == '_tools1'){
 conn.sendMessage(id, ' *Menampilkan Fitur tools1!!!* ' ,MessageType.text);
 }
-else if (text == '.tools2'){
+else if (text == '_tools2'){
 conn.sendMessage(id, ' *Menampilkan Fitur tools2!!!* ' ,MessageType.text);
 }
-else if (text == '.tools3'){
+else if (text == '_tools3'){
 conn.sendMessage(id, ' *Menampilkan Fitur tools3!!!* ' ,MessageType.text);
 }
-else if (text == '.tools4'){
+else if (text == '_tools4'){
 conn.sendMessage(id, ' *Menampilkan Fitur tools4!!!* ' ,MessageType.text);
 }
-else if (text == '.tools5'){
+else if (text == '_tools5'){
 conn.sendMessage(id, ' *Menampilkan Fitur tools5!!!* ' ,MessageType.text);
 }
-else if (text == '.tools6'){
+else if (text == '_tools6'){
 conn.sendMessage(id, ' *Menampilkan Fitur tools6!!!* ' ,MessageType.text);
 }
 else if (text == 'Euy'){
@@ -329,7 +329,7 @@ if (text.includes('.texthunder')){
       imageToBase64(res.data.result)
         .then(
           (ress) => {
-            conn.sendMessage(id, '[❗] SEDANG DIPROSES', MessageType.text)
+            conn.sendMessage(id, '[❗] SEDANG DIPROSES TOD', MessageType.text)
             var buf = Buffer.from(ress, 'base64')
             conn.sendMessage(id, buf, MessageType.image)
         })
@@ -383,7 +383,7 @@ if (text.includes('.nulis2')){
       imageToBase64(res.data.result)
         .then(
           (ress) => {
-            conn.sendMessage(id, 'Bot Lagi Nulis 📝', MessageType.text)
+            conn.sendMessage(id, 'Bot Lagi Nulis Tod 📝', MessageType.text)
             var buf = Buffer.from(ress, 'base64')
             conn.sendMessage(id, buf, MessageType.image)
         })
@@ -1404,28 +1404,28 @@ else if (text == '.foto'){
 conn.sendMessage(id, 'kirim .foto cewek/cowok\n\nContoh: .foto cewek' ,MessageType.text);
 }
 else if (text == '.help'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾UwBc-404👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
 }
 else if (text == '.tools1'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾UwBc-404👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
 }
 else if (text == '.menu'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾UwBc-404👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
 }
 else if (text == '.tool2'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾UwBc-404👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
 }
 else if (text == '.tools3'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾UwBc-404👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
 }
 else if (text == '.tools4'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾UwBc-404👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
 }
 else if (text == '.tools5'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾UwBc-404👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
 }
 else if (text == '.tools6'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾UwBc-404👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/rbs.420' ,MessageType.text);
 }
 if (messageType == 'imageMessage')
    {
