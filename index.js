@@ -29,9 +29,9 @@ const speed = require('performance-now');
 const readTextInImage = require('./lib/ocr')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:RIBAS Ganss\n' // full name
-            + 'ORG:Owner RIBASBot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6282193030283:+62 821-9303-0283\n' // WhatsApp ID + phone number
+            + 'FN:UWIW Ganss\n' // full name
+            + 'ORG:Owner UWIWot;\n' // the organization of the contact
+            + 'TEL;type=CELL;type=VOICE;waid=6281381630954:+62 813-8163-0954\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 //
 const
